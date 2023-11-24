@@ -16,7 +16,5 @@ public class InventoryEventConsumer {
     private void listen(String msg) throws Exception{
         log.info("Received message :" + msg +  " in " + TOPIC );
         System.out.println("Received message :" + msg +  " in " + TOPIC );
-        //throw new RuntimeException();
-
     }
 }
